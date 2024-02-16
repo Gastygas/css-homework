@@ -1,0 +1,146 @@
+body{
+    background-color:rgb(20, 19, 19);
+    color:rgb(255, 204, 62);
+    text-transform:uppercase;
+}
+section{
+    padding: 30px 30px 30px 30px;
+}
+header{
+    margin: 10px 10px 30px 10px;
+}
+#titulo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+#titulo:hover{
+    text-decoration-line: underline;
+}
+
+.padding-div{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.list-div{
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+li{
+    padding-top: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    text-align: center;
+}
+#flex-todo{
+    display: flex;
+    flex-direction: column;
+}
+li:not(#lesspadding){
+    
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li:hover{
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.648);
+}
+#lesspadding{
+    width: 10%;
+    margin-left: auto;
+    margin-right: 550px;
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+#flexlist{
+    display: flex;  
+    flex-direction: row;
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.parrafos{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.imagenes{
+    width: 400px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 3px;
+}
+.imagenes:hover{
+    border: 5px solid rgb(37, 212, 21);
+}
+#fleximagen{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#minititulo{
+font-size: 21px;
+}
+
+
+#contactolink{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#contacto{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+#link{
+    font-size: 20px;
+    background-color: wheat;
+    width: 30%;
+}
+#link:hover{
+    font-size: 30px;
+    width: 35%;
+    color:black;
+}
+
+footer{
+    background-color: rgb(2, 91, 96);
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+}
+#instagram{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-decoration-line: none;
+    font-style: italic;
+    font-size: 19px;
+    width: 15%;
+}
+#instagramimagen{
+    width: 50px;
+    height: 20px;
+    padding-top: 20px;
+}
+#igname{
+margin-left: 5px;
+height: 1%;
+}
+#instagram:hover{
+    color: aqua;
+}
+#artist{
+    font-size:12px;
+}
